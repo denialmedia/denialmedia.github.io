@@ -1,0 +1,26 @@
+body {
+    background-color: #272A33;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.elementToFadeInAndOut {
+    background: #272A33;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear backwards;
+    opacity: 1;
+}
+
+@-webkit-keyframes fadeinout {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeinout {
+    50% {
+        opacity: 0;
+    }
+}
