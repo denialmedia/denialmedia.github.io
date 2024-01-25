@@ -140,20 +140,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Chill Synth',
+					link: 'https://www.youtube.com/watch?v=UedTcufyrHc&pp=ygUTbG9maSB2YXBvcndhdmUgbGl2ZQ%3D%3D',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Vapor Funk',
+					link: 'https://www.youtube.com/watch?v=nUxp0Kx64bI&pp=ygUTbG9maSB2YXBvcndhdmUgbGl2ZQ%3D%3D',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi Alt',
+					link: 'https://www.youtube.com/watch?v=7byGS1W4NVo&pp=ygUVbG9maSBhbHRlcm5hdGl2ZSByb2Nr',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi Girl',
+					link: 'https://www.youtube.com/watch?v=jfKfPfyJRdk&pp=ygUFbG9maSA%3D',
 				},
 			],
 		},
