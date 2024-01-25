@@ -1,24 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bento</title>
+		<link rel=" shortcut icon" type="image/png" href="assets/icons/favicon.png" />
+		<link rel="stylesheet" href="app.css" />
+		<script src="https://unpkg.com/lucide@latest"></script>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="My b/w startpage" />
-    <link rel="apple-touch-icon" href="./logo192.png" />
-    <link rel="manifest" href="./manifest.json" />
-    <title>startpage</title>
-    <link href="./static/css/2.d34346ea.chunk.css" rel="stylesheet">
-    <link href="./static/css/main.ed6a4bee.chunk.css" rel="stylesheet">
-</head>
+	<!-- 
+      ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
+      ╠╩╗║╣ ║║║ ║ ║ ║
+      ╚═╝╚═╝╝╚╝ ╩ ╚═╝
+      -->
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script>!function (e) { function t(t) { for (var n, l, p = t[0], f = t[1], i = t[2], c = 0, s = []; c < p.length; c++)l = p[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0; for (n in f) Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]); for (a && a(t); s.length;)s.shift()(); return u.push.apply(u, i || []), r() } function r() { for (var e, t = 0; t < u.length; t++) { for (var r = u[t], n = !0, p = 1; p < r.length; p++) { var f = r[p]; 0 !== o[f] && (n = !1) } n && (u.splice(t--, 1), e = l(l.s = r[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function l(t) { if (n[t]) return n[t].exports; var r = n[t] = { i: t, l: !1, exports: {} }; return e[t].call(r.exports, r, r.exports, l), r.l = !0, r.exports } l.m = e, l.c = n, l.d = function (e, t, r) { l.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, l.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, l.t = function (e, t) { if (1 & t && (e = l(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (l.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var n in e) l.d(r, n, function (t) { return e[t] }.bind(null, n)); return r }, l.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return l.d(t, "a", t), t }, l.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, l.p = "./"; var p = this.webpackJsonpdevelopment = this.webpackJsonpdevelopment || [], f = p.push.bind(p); p.push = t, p = p.slice(); for (var i = 0; i < p.length; i++)t(p[i]); var a = f; r() }([])</script>
-    <script src="./static/js/2.2977768a.chunk.js"></script>
-    <script src="./static/js/main.27ea20c9.chunk.js"></script>
-</body>
+	<body class="">
+		<button id="themeButton">
+			<i id="themeIcon" icon-name="moon"></i>
+		</button>
+		<div class="container">
+			<!-- Clock and Greetings  -->
 
+			<div class="timeBlock">
+				<div class="clock">
+					<div id="hour"></div>
+					<div id="separator"></div>
+					<div id="minutes"></div>
+				</div>
+				<div id="greetings"></div>
+			</div>
+
+			<!-- Date and Weather  -->
+
+			<div class="weatherBlock">
+				<div class="date">
+					<div id="month"></div>
+					<div id="day"></div>
+				</div>
+				<div class="weather">
+					<div class="weatherIcon">
+						<img src="assets/icons/OneDark/unknown.png" />
+					</div>
+					<div class="weatherValue">
+						<p>- °<span class="g">c</span></p>
+					</div>
+					<div class="weatherDescription">
+						<p></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="linksBlock" id="linksBlock">
+				<div class="linksBlockLeft" id="linksBlockLeft"></div>
+				<div class="linksBlockRight" id="linksBlockRight"></div>
+			</div>
+		</div>
+
+		<!-- Config  -->
+		<script src="config.js"></script>
+
+		<!-- Scripts  -->
+		<script src="assets/js/layout.js"></script>
+		<script src="assets/js/theme.js"></script>
+		<script src="assets/js/time.js"></script>
+		<script src="assets/js/greeting.js"></script>
+		<script src="assets/js/weather.js"></script>
+
+		<!-- Generators  -->
+		<script src="assets/js/buttons.js"></script>
+		<script src="assets/js/lists.js"></script>
+
+		<!-- Icons -->
+		<script>
+			lucide.createIcons();
+		</script>
+	</body>
+
+	<!-- Developed and designed by Miguel Ávila: -->
+	<!-- https://avila.sh-->
 </html>
