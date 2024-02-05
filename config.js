@@ -66,9 +66,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Trello',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://trello.com',
 		},
 		{
 			id: '4',
@@ -84,9 +84,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Jellyfin',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'http://192.168.4.135:8096/',
 		},
 	],
 
