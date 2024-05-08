@@ -369,6 +369,7 @@ body {
 }
 
 .search form input[type=text] {
+    margin: 10px;
     width: 500px; /* Make the search input wider */
     height: 50px; /* Increase the height of the search input */
     border-radius: 50px; /* Make the border-radius larger for a rounder shape */
@@ -388,6 +389,7 @@ body {
     cursor: pointer;
     border-radius: 50px; /* Make the border-radius larger for a rounder shape */
     transition: background-color 0.3s ease;
+    margin-left: 10px;
 }
 
 .search form button:hover {
