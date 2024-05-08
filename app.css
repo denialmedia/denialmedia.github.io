@@ -363,13 +363,18 @@ body {
 }
 
 /* styling search bar */
+.search {
+    text-align: center; /* Center the search bar */
+    margin-top: 50px; /* Adjust margin from the top */
+}
+
 .search input[type=text] {
-    width: 300px;
-    height: 25px;
-    border-radius: 25px;
+    width: 500px; /* Make the search input wider */
+    height: 50px; /* Increase the height of the search input */
+    border-radius: 50px; /* Make the border-radius larger for a rounder shape */
     border: none;
-    padding: 10px;
-    font-size: 14px;
+    padding: 15px; /* Increase padding for better visibility */
+    font-size: 18px; /* Increase font size */
     background-color: #f5f5f5; /* Match your background color */
     color: var(--fg); /* Match your foreground color */
 }
@@ -377,25 +382,14 @@ body {
 .search button {
     background-color: #0074D9;
     color: #f2f2f2;
-    float: right;
-    padding: 5px 10px;
-    margin-right: 16px;
-    font-size: 14px;
+    padding: 10px 20px; /* Increase padding for larger button */
+    font-size: 18px; /* Increase font size */
     border: none;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 50px; /* Make the border-radius larger for a rounder shape */
     transition: background-color 0.3s ease;
 }
 
 .search button:hover {
     background-color: #0056b3; /* Darken the color on hover */
-}
-
-.search button i {
-    font-size: 18px;
-}
-
-.search {
-    float: right;
-    margin: 7px;
 }
