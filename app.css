@@ -363,12 +363,12 @@ body {
 }
 
 /* styling search bar */
-.search {
+.search form {
     text-align: center; /* Center the search bar */
     margin-top: 50px; /* Adjust margin from the top */
 }
 
-.search input[type=text] {
+.search form input[type=text] {
     width: 500px; /* Make the search input wider */
     height: 50px; /* Increase the height of the search input */
     border-radius: 50px; /* Make the border-radius larger for a rounder shape */
@@ -379,7 +379,7 @@ body {
     color: var(--fg); /* Match your foreground color */
 }
 
-.search button {
+.search form button {
     background-color: #0074D9;
     color: #f2f2f2;
     padding: 10px 20px; /* Increase padding for larger button */
@@ -390,6 +390,6 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.search button:hover {
+.search form button:hover {
     background-color: #0056b3; /* Darken the color on hover */
 }
