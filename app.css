@@ -365,12 +365,12 @@ body {
 /* styling search bar */
 .search form {
     text-align: center; /* Center the search bar */
-    margin-top: 50px; /* Adjust margin from the top */
+    margin: 30px; /* Adjust margin from the top */
 }
 
 .search form input[type=text] {
     margin: 10px;
-    width: 500px; /* Make the search input wider */
+    width: 90%; /* Make the search input wider */
     height: 50px; /* Increase the height of the search input */
     border-radius: 50px; /* Make the border-radius larger for a rounder shape */
     border: none;
