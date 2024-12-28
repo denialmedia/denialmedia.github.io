@@ -1,22 +1,172 @@
 {
   "posts": [
     {
-      "title": "My First Post",
+      "title": "roku_remote",
       "date": "2024-12-28",
-      "content": "This is my first blog post. It's a test to see if everything is working correctly.",
-      "link": "#"
+      "content": "flask docker remote app",
+      "link": "https://github.com/denialmedia/roku_remote",
+      "topics": ["HTML"]
     },
     {
-      "title": "My Second Post",
-      "date": "2024-12-29",
-      "content": "This is my second blog post. I'm adding more content to see how it looks.",
-      "link": "#"
+      "title": "badUI",
+      "date": "2024-10-28",
+      "content": null,
+      "link": "https://github.com/denialmedia/badUI",
+      "topics": []
     },
     {
-      "title": "My Third Post",
-      "date": "2024-12-30",
-      "content": "This is my third blog post. I'm experimenting with different layouts and styles.",
-      "link": "#"
+      "title": "Bento",
+      "date": "2022-08-14",
+      "content": "🍱 The minimalist, elegant and hackable startpage.",
+      "link": "https://github.com/denialmedia/Bento",
+      "topics": []
+    },
+    {
+      "title": "bookBan",
+      "date": "2023-11-04",
+      "content": null,
+      "link": "https://github.com/denialmedia/bookBan",
+      "topics": ["HTML"]
+    },
+    {
+      "title": "deltaVAssignments",
+      "date": "2021-07-08",
+      "content": "Assignments from DeltaV DevOps Course",
+      "link": "https://github.com/denialmedia/deltaVAssignments",
+      "topics": ["Shell"]
+    },
+    {
+      "title": "deltaVOps3",
+      "date": "2021-07-09",
+      "content": "Bash scrippt for ops3. Get's user name, and logs login's. ",
+      "link": "https://github.com/denialmedia/deltaVOps3",
+      "topics": ["Shell"]
+    },
+     {
+      "title": "denialmedia.github.io",
+      "date": "2022-03-24",
+      "content": "denialMedia",
+      "link": "https://github.com/denialmedia/denialmedia.github.io",
+      "topics": ["HTML"]
+    },
+    {
+      "title": "denialmediaBlog",
+      "date": "2024-01-27",
+      "content": null,
+      "link": "https://github.com/denialmedia/denialmediaBlog",
+      "topics": ["CSS"]
+    },
+    {
+      "title": "devComments",
+      "date": "2022-04-19",
+      "content": "git for my sites comments section. ",
+      "link": "https://github.com/denialmedia/devComments",
+      "topics": []
+    },
+    {
+      "title": "leapcellBlog",
+      "date": "2024-01-29",
+      "content": null,
+      "link": "https://github.com/denialmedia/leapcellBlog",
+      "topics": ["HTML"]
+    },
+    {
+      "title": "LLMStarter",
+       "date": "2023-11-21",
+      "content": "Hi, Welcome to the GPT WebApp. This app is developed using Langchain, Chainlit, HuggingFaceHub and Falcon LLM",
+      "link": "https://github.com/denialmedia/LLMStarter",
+      "topics": []
+    },
+    {
+      "title": "Midnight-Player",
+      "date": "2024-06-12",
+      "content": "Advanced Python Audioplayer",
+      "link": "https://github.com/denialmedia/Midnight-Player",
+      "topics": []
+    },
+    {
+      "title": "movie_recommender",
+      "date": "2023-11-21",
+      "content": "Movie Recommender System with Django.",
+      "link": "https://github.com/denialmedia/movie_recommender",
+      "topics": []
+    },
+    {
+      "title": "piSign",
+      "date": "2021-06-11",
+      "content": "Home Sign to keep this family on task/",
+      "link": "https://github.com/denialmedia/piSign",
+      "topics": ["HTML"]
+    },
+    {
+      "title": "polyIsUp",
+      "date": "2022-10-21",
+      "content": null,
+      "link": "https://github.com/denialmedia/polyIsUp",
+      "topics": ["Shell"]
+    },
+    {
+      "title": "pyanysite",
+      "date": "2023-09-05",
+      "content": "Pyhton Anywhere repo",
+      "link": "https://github.com/denialmedia/pyanysite",
+      "topics": ["CSS"]
+    },
+    {
+      "title": "Python-Assistant",
+      "date": "2023-11-21",
+      "content": "Python Assistant (PA) is a voice command based assistant service written in Python 3.9+. It can recognize human speech or voice, talk to user and execute basic commands.",
+      "link": "https://github.com/denialmedia/Python-Assistant",
+      "topics": []
+    },
+    {
+      "title": "slimeDrip",
+      "date": "2021-03-24",
+      "content": "Quick test, and to show someone on reddit how I would do a drip in godot. ",
+      "link": "https://github.com/denialmedia/slimeDrip",
+      "topics": ["GDScript"]
+    },
+    {
+      "title": "testDot",
+      "date": "2022-08-28",
+      "content": "testing dotfiles",
+      "link": "https://github.com/denialmedia/testDot",
+      "topics": ["CSS"]
+    },
+    {
+      "title": "TopdownStarter",
+      "date": "2024-01-18",
+      "content": "2D Pixelart TopDown Starter Project by ForlornU",
+      "link": "https://github.com/denialmedia/TopdownStarter",
+      "topics": []
+    },
+    {
+      "title": "torrentNFO",
+      "date": "2022-12-12",
+      "content": null,
+      "link": "https://github.com/denialmedia/torrentNFO",
+      "topics": ["Python"]
+    },
+    {
+      "title": "WhosAtMyFeeder",
+      "date": "2023-05-23",
+      "content": "My version - ",
+      "link": "https://github.com/denialmedia/WhosAtMyFeeder",
+      "topics": []
+    },
+    {
+      "title": "WorkshopManager",
+      "date": "2022-10-21",
+      "content": "CLI tool to install and update Steam Workshop mods",
+      "link": "https://github.com/denialmedia/WorkshopManager",
+      "topics": []
+    },
+    {
+      "title": "yuzu",
+      "date": "2024-03-05",
+      "content": "Fuck Nintendo",
+      "link": "https://github.com/denialmedia/yuzu",
+      "topics": []
     }
   ]
 }

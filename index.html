@@ -36,6 +36,17 @@
         .post:hover {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+         .hero {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #565f89;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background-color: #242534;
+        }
+        .hero:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
         a {
             color: #bb9af7;
             text-decoration: none;
@@ -47,6 +58,17 @@
         }
         body {
             transition: background-color 0.3s ease;
+        }
+        .topics {
+            margin-top: 10px;
+        }
+        .topics span {
+            display: inline-block;
+            background-color: #565f89;
+            color: #c0caf5;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
         }
     </style>
 </head>
@@ -70,27 +92,100 @@
             <section id="posts">
                 <h2>Posts</h2>
                 <div id="post-list">
+                    <div class="hero">
+                        <h2><a href="https://github.com/denialmedia/roku_remote">roku_remote</a></h2>
+                        <p>flask docker remote app</p>
+                        <div class="topics">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/badUI">badUI</a></h3>
+                        <p></p>
+                        <div class="topics">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/Bento">Bento</a></h3>
+                        <p>🍱 The minimalist, elegant and hackable startpage.</p>
+                        <div class="topics">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/bookBan">bookBan</a></h3>
+                        <p></p>
+                        <div class="topics">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+ 
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/denialmedia.github.io">denialmedia.github.io</a></h3>
+                        <p>denialMedia</p>
+                        <div class="topics">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/denialmediaBlog">denialmediaBlog</a></h3>
+                        <p></p>
+                        <div class="topics">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/devComments">devComments</a></h3>
+                        <p>git for my sites comments section. </p>
+                        <div class="topics">
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/movie_recommender">movie_recommender</a></h3>
+                        <p>Movie Recommender System with Django.</p>
+                        <div class="topics">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/piSign">piSign</a></h3>
+                        <p>Home Sign to keep this family on task/</p>
+                        <div class="topics">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/polyIsUp">polyIsUp</a></h3>
+                        <p></p>
+                        <div class="topics">
+                            <span>Shell</span>
+                        </div>
+                    </div>
+                    
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/slimeDrip">slimeDrip</a></h3>
+                        <p>Quick test, and to show someone on reddit how I would do a drip in godot. </p>
+                        <div class="topics">
+                            <span>GDScript</span>
+                        </div>
+                    </div>
+        
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/TopdownStarter">TopdownStarter</a></h3>
+                        <p>2D Pixelart TopDown Starter Project by ForlornU</p>
+                        <div class="topics">
+                        </div>
+                    </div>
+                    <div class="post">
+                        <h3><a href="https://github.com/denialmedia/torrentNFO">torrentNFO</a></h3>
+                        <p></p>
+                        <div class="topics">
+                            <span>Python</span>
+                        </div>
+                    </div>
+   
                 </div>
             </section>
         </div>
     </div>
-    <img src="assets/api.svg" alt="API" style="width: 400px; height: 500px; margin-top: 20px;">
-    <script>
-        fetch('http://localhost:8000/posts.json')
-            .then(response => response.json())
-            .then(data => {
-                const postList = document.getElementById('post-list');
-                data.posts.forEach(post => {
-                    const postDiv = document.createElement('div');
-                    postDiv.classList.add('post');
-                    postDiv.innerHTML = `
-                        <h3><a href="${post.link}">${post.title}</a></h3>
-                        <p>${post.date}</p>
-                        <p>${post.content}</p>
-                    `;
-                    postList.appendChild(postDiv);
-                });
-            });
-    </script>
 </body>
 </html>
