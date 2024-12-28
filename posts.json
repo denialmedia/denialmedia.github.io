@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "My First Post",
+      "date": "2024-12-28",
+      "content": "This is my first blog post. It's a test to see if everything is working correctly.",
+      "link": "#"
+    },
+    {
+      "title": "My Second Post",
+      "date": "2024-12-29",
+      "content": "This is my second blog post. I'm adding more content to see how it looks.",
+      "link": "#"
+    },
+    {
+      "title": "My Third Post",
+      "date": "2024-12-30",
+      "content": "This is my third blog post. I'm experimenting with different layouts and styles.",
+      "link": "#"
+    }
+  ]
+}
